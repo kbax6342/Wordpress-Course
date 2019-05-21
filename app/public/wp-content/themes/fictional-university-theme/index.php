@@ -1,6 +1,12 @@
 <?php get_header();?>
 
+<?php
 
+function doubleMe($x){
+  echo $x * 2;
+}
+doubleMe(5);
+?>
 
 
 <div class="page-banner">
