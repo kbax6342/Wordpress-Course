@@ -18,7 +18,15 @@ INSERT INTO `wp_postmeta` VALUES
 (20,14,"_wp_trash_meta_time","1558295989"),
 (21,14,"_wp_desired_post_slug","about-us"),
 (22,17,"_edit_last","1"),
-(23,17,"_edit_lock","1558296363:1"),
+(23,17,"_edit_lock","1558464820:1"),
 (24,19,"_edit_last","1"),
 (25,19,"_edit_lock","1558295977:1"),
-(26,2,"_edit_lock","1558296165:1");
+(26,2,"_edit_lock","1558296165:1"),
+(27,3,"_edit_lock","1558460160:1"),
+(28,3,"_edit_last","1"),
+(29,23,"_edit_last","1"),
+(30,23,"_edit_lock","1558464068:1"),
+(31,25,"_edit_last","1"),
+(32,25,"_edit_lock","1558464344:1"),
+(33,27,"_edit_last","1"),
+(34,27,"_edit_lock","1558464991:1");
