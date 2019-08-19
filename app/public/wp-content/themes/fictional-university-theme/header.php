@@ -22,7 +22,7 @@
               <li><a href="#">Programs</a></li>
               <li><a href="#">Events</a></li>
               <li><a href="#">Campuses</a></li>
-              <li><a href="#">Blog</a></li>
+              <li <? if(get_post_type() == 'post') echo 'class="current-menut-item"'?>><a href="<?php echo site_url('/blog')?>">Blog</a></li>
             </ul>
           </nav>
           <div class="site-header__util">
