@@ -1,5 +1,11 @@
 <?php
 
+function university_files(){
+  wp_enqueue_script('main-university-js',get_theme_file_uri('/js/scripts-bundled.js'), NULL, '1.0',true);
+  
+}
+
+add_action('wp_enqueue_scripts', 'university_files');
 
 function add_stylesheet_to_head() {
       wp_enqueue_script('main-university-js', get_theme_file_uri('/js/scripts-bundled.js'), NULL, microtime(), true);
@@ -18,5 +24,7 @@ function university_features(){
   add_theme_support('title-tag');
 }
 add_action('after_setup_theme','university_features');
+
+
 
 ?>
